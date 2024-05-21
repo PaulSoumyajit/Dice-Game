@@ -2,7 +2,8 @@ if (window.performance.navigation.type === 1) {
     rollDice();
   }
 
-
+var sound = new Audio();
+sound.src = "./dice-1.mp3";
 
 
 
